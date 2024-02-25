@@ -1,0 +1,27 @@
+.review {
+    background-image: linear-gradient(rgba(233, 91, 58, 0.9), rgba(233, 91, 58, 0.9)), url('https://preview.colorlib.com/theme/kayelux/images/bg_3.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    /* Remove fixed height */
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 50px 0; /* Add padding to maintain spacing */
+}
+
+.review p {
+    color: white;
+}
+
+.review .container {
+    max-width: 1200px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center the content */
+}
+
+/* Adjust column sizes for smaller screens */
+@media (max-width: 576px) {
+    .review .col-sm-6 {
+        flex: 0 0 50%; /* Two columns on smaller screens */
+    }
+}
